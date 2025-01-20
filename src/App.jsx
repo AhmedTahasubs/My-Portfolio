@@ -13,7 +13,7 @@ function App() {
     window.scrollTo(0,0)
   },[App])
   return (
-    <>
+    <div className='overflow-hidden'>
       <ParticleComponent></ParticleComponent>
       <header>
         <Header/>
@@ -29,7 +29,7 @@ function App() {
         <Footer/> 
       </footer>
     
-    </>
+    </div>
   )
 }
 export default App

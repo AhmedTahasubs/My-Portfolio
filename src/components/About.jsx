@@ -27,7 +27,7 @@ export default function About() {
                 </li>
                 <li className='flex items-center mt-4'>
                 <span className='w-12 h-12 grid relative place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] hover:bg-zinc-50 hover:text-zinc-950 active:bg-zing-50/80'><i className="fa-solid fa-g fa-beat-fade"></i></span>
-                <p className='ml-2 headline-4 relative'>ahmedtahaamuhammed@gmail.com</p>
+                <p className='ml-2 headline-5 relative'>ahmedtahaamuhammed@gmail.com</p>
                 </li>
             </ul>
             {/* <div className='flex items-center'>
