@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import './App.css'
 import About from './components/About.jsx'
 import Contact from './components/Contact.jsx'
@@ -8,6 +9,9 @@ import ParticleComponent from './components/ParticleComponent.jsx'
 import Projects from './components/Projects.jsx'
 import Skills from './components/Skills.jsx'
 function App() {
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  },[App])
   return (
     <>
       <ParticleComponent></ParticleComponent>
