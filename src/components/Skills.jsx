@@ -73,9 +73,3 @@ export default function Skills() {
     </section>
   )
 }
-
-
-      {/* <Atropos activeOffset={40}
-        shadowScale={1.05}
-        className="my-atropos">
-      </Atropos> */}

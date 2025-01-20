@@ -1,6 +1,4 @@
-// ParticleComponent.jsx
 import React, { useEffect } from 'react';
-import Home from './Home';
 
 const ParticleComponent = ({children}) => {
     useEffect(() => {

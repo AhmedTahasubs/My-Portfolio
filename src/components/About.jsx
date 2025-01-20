@@ -30,22 +30,6 @@ export default function About() {
                 <p className='ml-2 headline-5 relative'>ahmedtahaamuhammed@gmail.com</p>
                 </li>
             </ul>
-            {/* <div className='flex items-center'>
-                <span className='w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] hover:bg-zinc-50 hover:text-zinc-950 active:bg-zing-50/80'><i className="fa-regular fa-user fa-beat-fade"></i></span>
-                <p className='ml-2'>Ahmed Taha Muhammed</p>
-            </div>
-            <div className='flex items-center'>
-                <span className='w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] hover:bg-zinc-50 hover:text-zinc-950 active:bg-zing-50/80'><i className="fa-solid fa-location-dot fa-beat-fade"></i></span>
-                <p className='ml-2'>Egypt</p>
-            </div>
-            <div className="flex items-center">
-                <span className='w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] hover:bg-zinc-50 hover:text-zinc-950 active:bg-zing-50/80'><i className="fa-brands fa-whatsapp fa-beat-fade"></i></span>
-                <p className='ml-2'>01113795716</p> 
-            </div>
-            <div className="flex items-center">
-            <span className='w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] hover:bg-zinc-50 hover:text-zinc-950 active:bg-zing-50/80'><i className="fa-solid fa-g fa-beat-fade"></i></span>
-            <p className='ml-2'>ahmedtahaamuhammed@gmail.com</p> */}
-            {/* </div> */}
         </motion.div>
     </div>
   </section>
