@@ -13,7 +13,7 @@ export default function Home() {
       <p className='headline-4 text-center relative'>Interactive, Responsive, SEO, User-Friendly, Dynamic.</p>
       </div>
       <div className='flex items-center justify-center gap-3 mt-2'>
-      <a download="Ahmed Taha Muhammed.pdf" href="/public/Ahmed Taha Muhammed.pdf" target="_blank" aria-label='Download-cv' className="btn btn-primary relative fa-bounce">Download CV <i className="fa-solid fa-download"></i></a>
+      <a download="Ahmed Taha Muhammed.pdf" href="Ahmed Taha Muhammed.pdf" target="_blank" aria-label='Download-cv' className="btn btn-primary relative fa-bounce">Download CV <i className="fa-solid fa-download"></i></a>
       <a href="#about" className="btn btn-outline relative fa-bounce">Scroll down <i className="fa-solid fa-arrow-down"></i></a>
       </div>
     </motion.div>
