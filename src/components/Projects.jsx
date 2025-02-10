@@ -4,6 +4,13 @@ import ProjectCard from './ProjectCard';
 export default function Projects() {
   const works = [
     {
+      imgSrc: '/images/Admin.png',
+      title: 'Admin Dashboard App',
+      tags: ['React', 'Responsive','Tailwind','Framer-Motion','Lucide-React','React-Router','Recharts'],
+      githubLink: 'https://github.com/AhmedTahasubs/Admin-Dashboard',
+      demoLink: 'https://admin-dashboard-ten-ochre.vercel.app/',
+    },
+    {
       imgSrc: '/images/Fresh-Cart.png',
       title: 'Fresh-Cart E-commerce app ',
       tags: ['React', 'API', 'Responsive','Tailwind','Context','Axios','Formik','YUP','Dark & Light mode'],

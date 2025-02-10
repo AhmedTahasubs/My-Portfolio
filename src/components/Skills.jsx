@@ -17,7 +17,7 @@ export default function Skills() {
         },
         {
         icon:"icons8-react.svg"
-        ,logoName:"React",
+        ,logoName:"React.Js",
         },
         {
         icon:"icons8-bootstrap.svg"
@@ -39,6 +39,26 @@ export default function Skills() {
         icon:"icons8-github.svg"
         ,logoName:"Github",
         },
+        {
+        icon:"icons8-redux.svg"
+        ,logoName:"Redux",
+        },
+        {
+        icon:"next.svg"
+        ,logoName:"Next.Js",
+        },
+        {
+        icon:"icons8-figma.svg"
+        ,logoName:"Figma",
+        },
+        {
+        icon:"material.svg"
+        ,logoName:"MUI",
+        },
+        {
+        icon:"framer-motion.svg"
+        ,logoName:"Framer",
+        },
     ]
 
 
@@ -53,11 +73,11 @@ export default function Skills() {
             </p>
       </motion.div>
     <motion.div variants={fadeIn("up",0.2)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}} className="relative mt-8 m-auto w-full overflow-hidden  before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px] before:bg-[linear-gradient(to_right,#18181b,rgba(0,0,0,0)_100%)] before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[100px] rounded-lg after:-scale-x-100 after:bg-[linear-gradient(to_right,#18181b,rgba(255,255,255,0)_100%)] after:content-['']">
-      <div className='flex flex-row justify-center items-center gap-3 animate-infinite-slider w-[calc(250px*10)]'>
+      <div className='flex flex-row justify-center items-center gap-3 animate-infinite-slider w-[calc(350px*10)]'>
         {skills.map(({icon,logoName},key)=>
                     <div key={key} className='flex flex-col items-center slide w-[125px]  justify-center fa-fade'>
-                    <img src={icon} alt={logoName} className='h-24 w-24 '/>
-                    <h1 className='headline-4'>{logoName}</h1>
+                    <img src={icon} alt={logoName} className='h-24 w-24'/>
+                    <h1 className='headline-4 '>{logoName}</h1>
             </div>
         )}
         {skills.map(({icon,logoName},key)=>

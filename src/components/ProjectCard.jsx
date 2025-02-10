@@ -19,7 +19,7 @@ export default function ProjectCard({imgSrc, title, tags, githubLink, demoLink, 
         </div>
 
       </div>
-      <div className="flex mt-2 gap-4 ">
+      <div className="flex mt-2 gap-4">
               <a href={demoLink} target='_blank' className="rounded-lg grid place-items-center btn-secondary btn shrink-0">
                   <span className=''  aria-hidden="true"><i className="fa-solid fa-link"></i> Demo</span>
               </a>
