@@ -4,6 +4,13 @@ import ProjectCard from './ProjectCard';
 export default function Projects() {
   const works = [
     {
+      imgSrc: '/images/ITI JS.png',
+      title: 'SwiftBuy E-Commerce Platform',
+      tags: ['HTML', 'CSS','JavaScript','OOP','JSON Server','SweetAlert'],
+      githubLink: 'https://github.com/AhmedTahasubs/E-commers-ITI',
+      demoLink: 'https://github.com/AhmedTahasubs/E-commers-ITI',
+    },
+    {
       imgSrc: '/images/social.png',
       title: 'Social Media App',
       tags: ['Next.Js','TypeScript', 'Responsive','Tailwind','Material UI','API','Axios','Formik','Flowbite','YUP'],
@@ -12,14 +19,14 @@ export default function Projects() {
     },
     {
       imgSrc: '/images/Admin.png',
-      title: 'Admin Dashboard App',
+      title: 'Admin Dashboard Template',
       tags: ['React.Js', 'JavaScript','Responsive','Tailwind','Framer-Motion','Lucide-React','React-Router','Recharts'],
       githubLink: 'https://github.com/AhmedTahasubs/Admin-Dashboard',
       demoLink: 'https://admin-dashboard-ten-ochre.vercel.app/',
     },
     {
       imgSrc: '/images/Fresh-Cart.png',
-      title: 'Fresh-Cart E-commerce app ',
+      title: 'Fresh-Cart E-commerce Platform',
       tags: ['React.Js','JavaScript', 'API', 'Responsive','Tailwind','Context','Axios','Formik','YUP','Dark & Light mode'],
       githubLink: 'https://github.com/AhmedTahasubs/Fresh-Cart.git',
       demoLink: 'https://fresh-cart-tawny-phi.vercel.app/',
@@ -33,14 +40,14 @@ export default function Projects() {
     },
     {
       imgSrc: '/images/quiz.png',
-      title: 'Quiz App',
+      title: 'Quiz Platform',
       tags: ['HTML', 'CSS','JavaScript','API','Responsive','Bootstrap','OOP'],
       githubLink: 'https://github.com/AhmedTahasubs/Quiz-App',
       demoLink: 'https://ahmedtahasubs.github.io/Quiz-App/',
     },
     {
       imgSrc: '/images/games.png',
-      title: 'Game Reviews',
+      title: 'Game Reviews Platform',
       tags: ['HTML', 'CSS','JavaScript','OOP','API','Responsive','Bootstrap'],
       githubLink: 'https://github.com/AhmedTahasubs/GameReviews',
       demoLink: 'https://ahmedtahasubs.github.io/GameReviews/',
@@ -54,11 +61,12 @@ export default function Projects() {
     },
     {
       imgSrc: '/images/bookmarks.png',
-      title: 'Bookmarks',
+      title: 'Bookmarks Manager',
       tags: ['HTML', 'CSS','JavaScript','Responsive','Bootstrap'],
       githubLink: 'https://github.com/AhmedTahasubs/BookMarks',
       demoLink: 'https://ahmedtahasubs.github.io/BookMarks/',
     },
+
   ];
   return (
   <>

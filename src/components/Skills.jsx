@@ -59,6 +59,22 @@ export default function Skills() {
         icon:"framer-motion.svg"
         ,logoName:"Framer",
         },
+        {
+        icon:"icons8-angular.svg"
+        ,logoName:"Angular",
+        },
+        {
+        icon:"icons8-c-sharp-logo.svg"
+        ,logoName:"C#",
+        },
+        {
+        icon:"Microsoft_.NET_logo.svg"
+        ,logoName:".NET",
+        },
+        {
+        icon:"microsoft-sql-server-logo.svg"
+        ,logoName:"MSSQL",
+        },
     ]
 
 

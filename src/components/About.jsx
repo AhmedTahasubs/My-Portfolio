@@ -6,11 +6,8 @@ export default function About() {
   return (
     <section id='about' className='section pt-28 lg:pt-36'>
     <div className='container lg:grid lg:grid-cols-2'>
-        <motion.p variants={fadeIn('left',0.5)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.2}} className='headline-3 text-center lg:text-left ' >Highly motivated and enthusiastic frontend developer with a strong foundation in HTML, CSS,
-            JavaScript and React. Proficient in building responsive, interactive, and scalable web
-            applications using modern frontend technologies. Eager to learn and grow with a team, and
-            passionate about creating visually appealing and user-friendly interfaces.
-        </motion.p>
+        <motion.p variants={fadeIn('left',0.5)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.2}} className='headline-3 text-center lg:text-left ' >
+Full-stack developer with a strong background in .NET backend and React, Next.js, and Angular frontend technologies. ITI graduate, passionate about building scalable, user-friendly web applications and continuously growing in a collaborative team environment.        </motion.p>
         <motion.div variants={fadeIn("up",0.2)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.2}} className='flex flex-col items-center justify-center gap-3 mt-2'>
             <ul>
                 <li className='flex items-center mt-4'>
