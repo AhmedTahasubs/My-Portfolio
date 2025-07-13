@@ -5,7 +5,7 @@ export default function ProjectCard({imgSrc, title, tags, githubLink, demoLink, 
     <motion.div variants={fadeIn('up',0.2)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.1}} className={"relative product-card p-4 rounded-2xl bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/60 ring-1 ring-inset ring-zinc-50/5 transition-colors "+ classes}>
       <figure className='img-box object-contain rounded-lg mb-4 overflow-hidden'>
         <a href={demoLink} target="_blank">
-        <img src={imgSrc} alt={title} className='img-cover hover:scale-110 transition-all duration-500' loading='lazy' />
+        <img src={imgSrc} alt={title} className='img-cover h-48 w-full hover:scale-110 transition-all duration-500' loading='lazy' />
         </a>
       </figure>
       <div className="flex items-center justify-between gap-4">
