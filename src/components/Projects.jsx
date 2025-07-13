@@ -4,6 +4,13 @@ import ProjectCard from './ProjectCard';
 export default function Projects() {
   const works = [
     {
+      imgSrc: '/images/canteen.png',
+      title: 'Market-Management-System',
+      tags: ['C#', '.NET (WinForms)','SQL Server','ADO.NET','OOP'],
+      githubLink: 'https://github.com/AhmedTahasubs/Market-Management-System',
+      demoLink: 'https://github.com/AhmedTahasubs/Market-Management-System',
+    },
+    {
       imgSrc: '/images/ITI JS.png',
       title: 'SwiftBuy E-Commerce Platform',
       tags: ['HTML', 'CSS','JavaScript','OOP','JSON Server','SweetAlert'],
