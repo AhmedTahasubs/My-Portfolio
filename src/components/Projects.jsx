@@ -4,6 +4,20 @@ import ProjectCard from './ProjectCard';
 export default function Projects() {
   const works = [
     {
+      imgSrc: '/images/Handmade.png',
+      title: 'Handmade Marketplace',
+      tags: ['Angular', 'TailwindCSS,','RESTful API Backend'],
+      githubLink: 'https://github.com/AhmedTahasubs/Handmade',
+      demoLink: 'https://github.com/AhmedTahasubs/Handmade',
+    },
+    {
+      imgSrc: '/Microsoft_.NET_logo.svg',
+      title: 'Handmade Marketplace Backend',
+      tags: ['C#', 'ASP.NET Core,','Clean Architecture',' EF Core','ASP.NET Identity', 'AutoMapper'],
+      githubLink: 'https://github.com/AhmedTahasubs/Handmade',
+      demoLink: 'https://github.com/AhmedTahasubs/Handmade',
+    },
+    {
       imgSrc: '/images/canteen.png',
       title: 'Market-Management-System',
       tags: ['C#', '.NET (WinForms)','SQL Server','ADO.NET','OOP'],
